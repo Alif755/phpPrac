@@ -1,0 +1,48 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    background-image: url(bg-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 80%;
+    background-color: brown;
+    padding: 34px;
+    margin: auto;
+    text-align: center;
+}
+
+.container h3, p {
+    font-size: 30px;
+}
+
+input, textarea {
+    width: 80%;
+    margin: 11px;
+    padding: 7px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+    opacity: 0.7;
+}
+
+.btn {
+    color: white;
+    background-color: #18218a;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.submit-msg {
+    color: #18218a;
+    font-style: italic;
+}
